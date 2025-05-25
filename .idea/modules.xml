@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/altura/altura.iml" filepath="$PROJECT_DIR$/altura/altura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apresentacao/apresentacao.iml" filepath="$PROJECT_DIR$/apresentacao/apresentacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/horaDoSistema/horaDoSistema.iml" filepath="$PROJECT_DIR$/horaDoSistema/horaDoSistema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/idiomaDoSistema/idiomaDoSistema.iml" filepath="$PROJECT_DIR$/idiomaDoSistema/idiomaDoSistema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-basico.iml" filepath="$PROJECT_DIR$/.idea/java-basico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lojaUs/lojaUs.iml" filepath="$PROJECT_DIR$/lojaUs/lojaUs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pessoa/pessoa.iml" filepath="$PROJECT_DIR$/pessoa/pessoa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resolucaoDaTela/resolucaoDaTela.iml" filepath="$PROJECT_DIR$/resolucaoDaTela/resolucaoDaTela.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teste-processamento/teste-processamento.iml" filepath="$PROJECT_DIR$/teste-processamento/teste-processamento.iml" />
+    </modules>
+  </component>
+</project>
