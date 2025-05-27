@@ -1,5 +1,7 @@
 package application;
 
+import entities.Triangle;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -15,23 +17,27 @@ public class Main {
 
         String maiorArea;
 
+        Triangle x, y;
+        x = new Triangle();
+        y = new Triangle();
+
         System.out.println("Insira as medidas do Triângulo X:");
-        double L1 = sc.nextDouble();
-        double L2 = sc.nextDouble();
-        double L3 = sc.nextDouble();
+        x.a = sc.nextDouble();
+        x.b = sc.nextDouble();
+        x.c = sc.nextDouble();
 
-        P = (L1 + L2 + L3) / 2;
+        P = (x.a + x.b + x.c) / 2;
 
-        A = Math.sqrt(P * (P - L1) * (P - L2) * (P - L3));
+        A = Math.sqrt(P * (P - x.a) * (P - x.b) * (P - x.c));
 
         System.out.println("Insira as medidas do Triângulo Y:");
-        double l1 = sc.nextDouble();
-        double l2 = sc.nextDouble();
-        double l3 = sc.nextDouble();
+        y.a = sc.nextDouble();
+        y.b = sc.nextDouble();
+        y.c = sc.nextDouble();
 
-        p = (l1 + l2 + l3) / 2;
+        p = (y.a + y.b + y.c) / 2;
 
-        a = Math.sqrt(p * (p - l1) * (p - l2) * (p - l3));
+        a = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
 
         if (a > A) {
             maiorArea = "Y";
