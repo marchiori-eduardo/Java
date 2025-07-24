@@ -1,15 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f93ec99-84c0-47cc-8e78-19980c9ce3bf" name="Changes" comment="" />
+    <list default="true" id="9f93ec99-84c0-47cc-8e78-19980c9ce3bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../06-16-2025-matrices/src/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-19-2025-date-time/src/app/Program1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-19-2025-date-time/src/app/Program2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-19-2025-date-time/src/app/Program3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-19-2025-date-time/src/app/Program4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-19-2025-enumeration/src/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-19-2025-enumeration/src/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-19-2025-enumeration/src/entities/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/06-16-2025-matrix-positions/src/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/06-20-2025-worker-enum/src/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/06-20-2025-worker-enum/src/entities/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/06-20-2025-worker-enum/src/entities/HourContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/06-20-2025-worker-enum/src/entities/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/06-20-2025-worker-enum/src/entities/enums/WorkerLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/06-30-2025-post-stringBuilder/src/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/06-30-2025-post-stringBuilder/src/entities/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/06-30-2025-post-stringBuilder/src/entities/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/07-03-2025- order-enum/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/07-03-2025- order-enum/src/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/07-03-2025- order-enum/src/entities/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/07-03-2025- order-enum/src/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/07-03-2025- order-enum/src/entities/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/07-03-2025- order-enum/src/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercicios/07-03-2025- order-enum/src/entities/enums/OrderStatus.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "marchiori-eduardo"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/marchiori-eduardo/java-basico.git",
+    "accountId": "6b7b4230-4b46-46db-8ccb-e36a856676ab"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2xbJCppuFuistW5RlZ2itvESLDl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -17,8 +57,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HoraDoSistema.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Eduardo/Desktop/java/java-basico/aulas/05-24-2025-horaDoSistema",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Eduardo/Desktop/java/java-básico/horaDoSistema/src/Main.java",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -28,8 +72,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
       </set>
     </attachedChunks>
   </component>
@@ -41,8 +85,12 @@
       <option name="presentableId" value="Default" />
       <updated>1748200715152</updated>
       <workItem from="1748200716638" duration="3000" />
+      <workItem from="1751562696849" duration="141000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
