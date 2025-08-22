@@ -4,7 +4,6 @@ import entities.Company;
 import entities.Individual;
 import entities.Payers;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;

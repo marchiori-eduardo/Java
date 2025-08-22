@@ -43,7 +43,7 @@ public class Reservation {
     public void updateDates(LocalDate checkIn, LocalDate checkOut) {
 
         LocalDate now = LocalDate.now();
-        if (checkIn.isBefore(now) || checkOut.isBefore(now)) { //verificação se a data é válida
+        if (checkIn.isBefore(now) || checkOut.isBefore(now)) { //verificação se a data é válida, caso não seja, irá criar uma exceção a partir da invalidade
             throw new DomainException("Reservation dates for update must be future dates");
         }
         if (!checkOut.isAfter(checkIn)) {

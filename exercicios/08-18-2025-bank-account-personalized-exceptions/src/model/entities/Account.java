@@ -38,7 +38,6 @@ public class Account {
         return balance;
     }
 
-
     public Double getWithdrawLimit() {
         return withdrawLimit;
     }
@@ -51,7 +50,7 @@ public class Account {
     }
 
     public void withdraw(Double amount) {
-        validateWithdraw(double);
+        validateWithdraw(amount);
         balance -= amount;
     }
 
@@ -66,7 +65,7 @@ public class Account {
             throw new DomainExceptions("Invalid Value, only positive numbers are allowed");
         }
     }
-    }
+
 
     @Override
     public String toString() {
