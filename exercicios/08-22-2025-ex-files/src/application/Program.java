@@ -55,10 +55,6 @@ public class Program {
                 System.out.println("Error writing file" + e.getMessage());
             }
 
-
-
-
-
         } catch (IOException e) {
             System.out.println("Error writing file" + e.getMessage());
         }
