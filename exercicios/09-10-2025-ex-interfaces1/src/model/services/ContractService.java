@@ -3,25 +3,33 @@ package model.services;
 import model.entities.Contract;
 import model.entities.Installment;
 
+import java.sql.Date;
+import java.time.LocalDate;
+
 public class ContractService {
     private OnlinePaymentService onlinePaymentService;
-    private Integer months;
 
-    private Installment installment;
 
-    public ContractService(OnlinePaymentService onlinePaymentService, Integer months) {
+    public ContractService(OnlinePaymentService onlinePaymentService) {
         this.onlinePaymentService = onlinePaymentService;
-        this.months = months;
     }
 
-    public void processContract(Contract contract, Integer months) {
-        Double totalValue = contract.getTotalValue();
+    public void processContract(Contract contract, int months) {
 
-        Double paymentFee = onlinePaymentService.paymentFee(totalValue);
-        Double interest = onlinePaymentService.interest(totalValue, months);
+        double basicQuota = contract.getTotalValue() / months;
 
-        Double amount = paymentFee + interest;
+        for (int i = 1; i <= months; i++) {
+            LocalDate dueDate = contract.getDate().plusMonths(i); //função para adicionar meses
 
-        installment.setAmount(amount);
+            double interest =
+
+            double fee =
+
+        }
+//        Double paymentFee = onlinePaymentService.paymentFee(totalValue);
+//        Double interest = onlinePaymentService.interest(totalValue, months);
+//
+//        Double amount = paymentFee + interest;
+
     }
 }
