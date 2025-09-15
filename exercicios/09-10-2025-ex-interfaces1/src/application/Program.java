@@ -43,6 +43,8 @@ public class Program {
             System.out.println(installment);
         }
 
+
+        //mlml
         sc.close();
     }
 
