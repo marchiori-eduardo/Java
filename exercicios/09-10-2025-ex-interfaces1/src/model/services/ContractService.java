@@ -21,15 +21,14 @@ public class ContractService {
         for (int i = 1; i <= months; i++) {
             LocalDate dueDate = contract.getDate().plusMonths(i); //função para adicionar meses
 
-            double interest =
+            double interest = onlinePaymentService.interest(basicQuota, i);
 
-            double fee =
+            double fee = onlinePaymentService.paymentFee(basicQuota + interest);
 
+            double quota = basicQuota + interest + fee;
+
+            contract.getInstallments().add(new Installment(dueDate, quota));
         }
-//        Double paymentFee = onlinePaymentService.paymentFee(totalValue);
-//        Double interest = onlinePaymentService.interest(totalValue, months);
-//
-//        Double amount = paymentFee + interest;
 
     }
 }

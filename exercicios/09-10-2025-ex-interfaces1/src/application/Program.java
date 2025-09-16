@@ -3,6 +3,7 @@ package application;
 import model.entities.Contract;
 import model.entities.Installment;
 import model.services.ContractService;
+import model.services.PaypalService;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -20,7 +21,6 @@ public class Program {
 
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-
         System.out.println("Enter the data of contract: ");
         System.out.print("Number: ");
         int number = sc.nextInt();
@@ -31,10 +31,10 @@ public class Program {
 
         Contract contract = new Contract(number, date, totalValue);
 
-        System.out.print("enter the number of installments");
+        System.out.print("enter the number of installments: ");
         int numberInstalments = sc.nextInt();
 
-        ContractService contractService = new ContractService(null);
+        ContractService contractService = new ContractService(new PaypalService());
 
         contractService.processContract(contract, numberInstalments);
 
@@ -44,7 +44,7 @@ public class Program {
         }
 
 
-        //mlml
+
         sc.close();
     }
 
