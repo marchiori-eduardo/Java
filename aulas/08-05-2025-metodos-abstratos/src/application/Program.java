@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
-         Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         List<Shape> list = new ArrayList<>();
 
@@ -28,6 +28,7 @@ public class Program {
             System.out.print("Rectangle or Circle (r/c)? ");
             char ch = sc.next().charAt(0);
 
+
             System.out.print("Color (BLACK/BLUE/RED): ");
             Color color = Color.valueOf(sc.next());
 
@@ -39,6 +40,7 @@ public class Program {
 
                 list.add(new Rectangle(color, width, height));
             }
+
             else if (ch == 'c') {
                 System.out.print("Radius: ");
                 double radius = sc.nextDouble();
