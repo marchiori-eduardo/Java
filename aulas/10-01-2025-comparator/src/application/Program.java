@@ -36,7 +36,7 @@ public class Program {
 
 
         //expressão inserida no argumento da função
-        list.sort((p1, p2) ->p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase()););
+        list.sort((p1, p2) ->p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase()));
 
         for (Product p : list) {
             System.out.println(p);
