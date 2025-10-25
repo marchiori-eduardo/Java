@@ -1,4 +1,4 @@
-package entitites;
+package entities;
 
 public class Product {
 
@@ -26,11 +26,17 @@ public class Product {
         this.name = name;
     }
 
+    public static Boolean staticProductPredicate (Product p) {
+        return p.getPrice() >= 100.0;
+    }
+
+    public Boolean nonStaticProductPredicate () {
+        return price >= 100.0;
+    }
+
     @Override
     public String toString() {
-        return "Product{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                '}';
+        return  name +
+                ", " + price ;
     }
 }
