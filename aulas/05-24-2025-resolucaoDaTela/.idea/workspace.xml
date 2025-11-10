@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab59dc68-28df-4d87-95b8-cc42a75a7e7e" name="Changes" comment="" />
+    <list default="true" id="ab59dc68-28df-4d87-95b8-cc42a75a7e7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ex-banco-de-dados/11-06-2025-inserir-dados/.idea/libraries/mysql_connector_j_9_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex-banco-de-dados/11-06-2025-inserir-dados/database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex-banco-de-dados/11-06-2025-inserir-dados/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex-banco-de-dados/11-06-2025-inserir-dados/src/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex-banco-de-dados/11-06-2025-inserir-dados/src/db/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex-banco-de-dados/11-06-2025-inserir-dados/src/db/DbException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex-banco-de-dados/10-30-2025-jdbc2/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex-banco-de-dados/10-30-2025-jdbc2/src/application/Program.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2xbJULUKVqLUyT73JyQAvjGYlHx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,17 +30,26 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/GAMER/Desktop/estudos Java/Java/aulas/05-24-2025-resolucaoDaTela",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Eduardo/Desktop/java/java-básico/resolucaoDaTela/src/Main.java",
     "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
       </set>
     </attachedChunks>
   </component>
@@ -41,8 +61,12 @@
       <option name="presentableId" value="Default" />
       <updated>1748200854313</updated>
       <workItem from="1748200855683" duration="2000" />
+      <workItem from="1762455416538" duration="5000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

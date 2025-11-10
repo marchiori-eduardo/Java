@@ -19,10 +19,10 @@ public class Program {
 
             st = conn.createStatement();
 
-            rs = st.executeQuery("SELECT * FROM department");
+            rs = st.executeQuery("SELECT * FROM department"); // comando sql
 
             while (rs.next()) {
-                System.out.println(rs.getInt("Id") + ", " + rs.getString("Name"));
+                System.out.println(rs.getInt("Id") + ", " + rs.getString("Name")); //acessando os dados das colunas
             }
 
         } catch (SQLException e) {
